@@ -9,10 +9,10 @@ $ad  = $_POST["kisi_tel"];
 	
 		$_SESSION['test'] = $name;
 
-$servername = "localhost:3306";
-$username = "webmaster";
-$password = "2092641182";
-$dbname = "databaseone";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

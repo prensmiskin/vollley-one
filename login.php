@@ -12,10 +12,10 @@ $ad  = $_POST["kisi_tel"];
 $name  = $_POST["kisi_ad"];
 $ad  = $_POST["kisi_tel"];
 
-$servername = "localhost:3306";
-$username = "webmaster";
-$password = "2092641182";
-$dbname = "databaseone";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
